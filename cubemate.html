@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="">
+
+    <title>cubemate</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="./css/bootstrap.min.css" rel="stylesheet">
+    <link href="./css/cubemate.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="./css/narrow-jumbotron.css" rel="stylesheet">
+  </head>
+
+  <body onload="newCase()"> <!--onload="getTimes();"-->
+
+    <div class="container">
+      <header class="header clearfix">
+        <nav>
+          <ul class="nav nav-pills float-right">
+            <li class="nav-item">
+              <a class="nav-link active" href="cubemate.html">Home <span class="sr-only">(current)</span></a>
+            <!--</li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Contact</a>
+            </li>-->
+	    </ul>
+        </nav>
+        <h3 class="text-secondary">cubemate</h3>
+      </header>
+
+      <main role="main">
+
+        <div class="jumbotron">
+          <img id="cubeImg" src="http://cube.crider.co.uk/visualcube.php?fmt=svg&size=250&pzl=3&view=plan&bg=t&fd=uuuuuuuuunnnnrrrrrnnnnfffffdddddddddnnnnlllllnnnnbbbbb&alg=r2"></img>
+          <h1 class="timertext" id="timer">0.000</h1>
+	  <p class="lead" id="scrambleText"></p>
+          <p><button id="toggle" class="btn-lg btn-success">start timer</button></p>
+	  <p>or press <kbd>space</kbd></p>
+        </div>
+	
+	<div id="timerTimes"></div>
+
+        <!--<div class="row marketing">
+          <div class="col-lg-6">
+            <h4>Subheading</h4>
+            <p>Donec id elit non mi porta gravida at eget metus. Maecenas faucibus mollis interdum.</p>
+
+            <h4>Subheading</h4>
+            <p>Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Cras mattis consectetur purus sit amet fermentum.</p>
+
+            <h4>Subheading</h4>
+            <p>Maecenas sed diam eget risus varius blandit sit amet non magna.</p>
+          </div>-->
+	  
+      </main>
+
+      <footer class="footer">
+        <p>&copy; cubemate 2017
+</p>
+      </footer>
+      <script src="./js/main.js"></script>
+      <script src="./js/stopwatch.js"></script>
+      <!--<script src="./js/main_timer.js"></script>-->
+      <!--<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>-->
+</body>
+    </div> <!-- /container -->
+  </body>
+</html>
