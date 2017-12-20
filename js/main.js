@@ -13,7 +13,7 @@ var oll = ["R U2 R2' F R F' U2 R' F R F'",
 ];
 function newCase(){
         var chosenCase = oll[Math.floor((Math.random() * 11))];
-        scrambleText.innerHTML = chosenCase;
+        scrambleText.innerHTML = "Alg: " + chosenCase;
 	document.getElementById("cubeImg").src= linkIMG + chosenCase;
 }
 var isOn;
