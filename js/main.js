@@ -3,16 +3,20 @@ var oll = ["R U2 R2' F R F' U2 R' F R F'",
            "F R U R' U' F' f R U R' U' f' U2", 
            "f R U R' U' f' U' F R U R' U' F'", 
            "f R U R' U' f' U F R U R' U' F'", 
-           "r' U2 R U R' U r",
+/*5*/      "r' U2 R U R' U r",
 	   "r U2 R' U' R U' r'",
 	   "r U R' U R U2 r'",
 	   "r' U' R U' R' U2 r",
 	   "R U R' U' R' F R2 U R' U' F'",
-	   "R U R' U R' F R F' R U2 R'",
+/*10*/	   "R U R' U R' F R F' R U2 R'",
 	   "r U R' U R' F R F' R U2 r'",
+	   "r' U' R U' x R U' R' U x' R' U2 r",
+	   "r U' r' U' r U r' F' U F",
+	   "R' F R U R' F' R F U' F'",
+/*15*/	   "l' U' l L' U' L U l' U l"
 ];
 function newCase(){
-        var chosenCase = oll[Math.floor((Math.random() * 11))];
+        var chosenCase = oll[Math.floor((Math.random() * 15))];
         scrambleText.innerHTML = "Alg: " + chosenCase;
 	document.getElementById("cubeImg").src= linkIMG + chosenCase;
 }
