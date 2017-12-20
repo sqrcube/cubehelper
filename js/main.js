@@ -12,7 +12,7 @@ var oll = ["R U2 R2' F R F' U2 R' F R F'",
 	   "r U R' U R' F R F' R U2 r'",
 ];
 function newCase(){
-        var chosenCase = oll[Math.floor((Math.random() * 5))];
+        var chosenCase = oll[Math.floor((Math.random() * 11))];
         scrambleText.innerHTML = chosenCase;
 	document.getElementById("cubeImg").src= linkIMG + chosenCase;
 }
