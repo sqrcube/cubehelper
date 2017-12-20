@@ -1,9 +1,16 @@
 var linkIMG = "http://cube.crider.co.uk/visualcube.php?fmt=svg&size=250&pzl=3&view=plan&bg=t&fd=uuuuuuuuunnnnrrrrrnnnnfffffdddddddddnnnnlllllnnnnbbbbb&alg=";
 var oll = ["R U2 R2' F R F' U2 R' F R F'", 
-"F R U R' U' F' f R U R' U' f'", 
-"y' f R U R' U' f' U' F R U R' U' F'", 
-"y' f R U R' U' f' U F R U R' U' F'", 
-"r' U2 R U R' U r"];
+           "F R U R' U' F' f R U R' U' f'", 
+           "y' f R U R' U' f' U' F R U R' U' F'", 
+           "y' f R U R' U' f' U F R U R' U' F'", 
+           "r' U2 R U R' U r",
+	   "r U2 R' U' R U' r'",
+	   "r U R' U R U2 r'",
+	   "r' U' R U' R' U2 r",
+	   "R U R' U' R' F R2 U R' U' F'",
+	   "R U R' U R' F R F' R U2 R'",
+	   "r U R' U R' F R F' R U2 r'",
+];
 function newCase(){
         var chosenCase = oll[Math.floor((Math.random() * 5))];
         scrambleText.innerHTML = chosenCase;
