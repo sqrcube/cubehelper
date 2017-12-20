@@ -1,4 +1,4 @@
-var linkIMG = "http://cube.crider.co.uk/visualcube.php?fmt=svg&size=250&pzl=3&view=plan&bg=t&fd=uuuuuuuuunnnnrrrrrnnnnfffffdddddddddnnnnlllllnnnnbbbbb&alg=";
+var linkIMG = "http://cube.crider.co.uk/visualcube.php?fmt=svg&size=250&pzl=3&view=plan&bg=t&fd=uuuuuuuuunnnnrrrrrnnnnfffffdddddddddnnnnlllllnnnnbbbbb&case=";
 var oll = ["R U2 R2' F R F' U2 R' F R F'", 
            "F R U R' U' F' f R U R' U' f'", 
            "y' f R U R' U' f' U' F R U R' U' F'", 
