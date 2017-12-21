@@ -10,7 +10,7 @@ var oll = ["R U2 R2' F R F' U2 R' F R F'",
 	   "R U R' U' R' F R2 U R' U' F'",
 /*10*/	   "R U R' U R' F R F' R U2 R'",
 	   "r U R' U R' F R F' R U2 r'",
-	   "r' U' R U' x R U' R' U x' R' U2 r",
+	   "r' U' R U' R B' R' B R' U2 r",
 	   "r U' r' U' r U r' F' U F",
 	   "R' F R U R' F' R F U' F'",
 /*15*/	   "l' U' l L' U' L U l' U l"
