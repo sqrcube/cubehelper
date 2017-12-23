@@ -79,7 +79,6 @@ toggleBtn.addEventListener("click", function(){
 		stop();
 		save();
 	        getTimes();
-		generateScramble();
 		toggle.innerHTML = "start timer";
 		newCase()
 	} else{
