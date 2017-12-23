@@ -1,3 +1,11 @@
 .timertext{
 	font-size: 400%;
 }
+
+#timerTimes{
+	display:table;
+	width:100%;
+	display:table-cell;
+	vertical-align:middle;
+	width:100%;
+}
