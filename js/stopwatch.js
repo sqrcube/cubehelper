@@ -9,8 +9,6 @@ var minutes = "00";
 var timeArray = [];
 var formattedTime;
 var finalTime;
-var timeOutput;
-var timeInMilliseconds = "";
 
 
 var isOn = false;
@@ -139,7 +137,7 @@ function save(){
 	
 }
 
-/*function getTimes(){
+function getTimes(){
 	//set to local storage
 	var timeSaves = JSON.parse(localStorage.getItem("timeSaves"));
 	
@@ -158,4 +156,4 @@ function save(){
 		                                                     '</h3>'+
 		                                                     '</div>';
 	}
-}*/
+}
