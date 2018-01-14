@@ -136,7 +136,16 @@ function save(){
 	}
 	
 }
+function calcAverage{
+	var sum = 0;
+        for(var i = 0; i < timeSaves.length; i++){
+            sum += parseInt(timeSaves[i], timeSaves.length);
+        }
 
+        var avg = sum/timeSaves.length;
+	return avg;
+	
+}
 function getTimes(){
 	console.log(timeSaves);
 	//set to local storage
@@ -148,13 +157,14 @@ function getTimes(){
 	//build output
 	timesResults.innerHTML = "";
 	
-	for(var i = 0; i < timeSaves.length; i++){
+	timesResults.innerHTML = calcAverage();
+	/*for(var i = 0; i < timeSaves.length; i++){
 		var timeOutput = timeSaves[i].timeToBeSaved;
 		
 		timesResults.innerHTML += '<div class="well well-lg">'+
 								     '<h3>'+timeFormatter(timeOutput)+
 		                                                     '<a onclick="deleteTime(\''+timeSaves[i].timeToBeSaved+'\')" class="btn btn-danger" href="#">delete</a>'+
 		                                                     '</h3>'+
-		                                                     '</div>';
+		                                                     '</div>';*/
 	}
 }
