@@ -138,6 +138,7 @@ function save(){
 }
 
 function getTimes(){
+	console.log(timeSaves);
 	//set to local storage
 	var timeSaves = JSON.parse(localStorage.getItem("timeSaves"));
 	
